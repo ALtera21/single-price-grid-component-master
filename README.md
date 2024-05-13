@@ -35,11 +35,12 @@ Users should be able to:
 ## My process
 
 Since this is my third time doing this, my code is cleaner than the first 2 attempts
+
 1.) i created the layout in html, i divided it into 4 parts
--the main container(.container)
--the whitebox (.whiteBox)
--the left blue box (.left-blue-box)
--the right blue box (.right-blue-box)
+- the main container(.container)
+- the whitebox (.whiteBox)
+- the left blue box (.left-blue-box)
+- the right blue box (.right-blue-box)
 
 2.)i made the body into flexbox so that the container could stand on the middle of the screen using {justify-content: center;}
 
