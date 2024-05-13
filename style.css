@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 700;
+    font-style: normal;
+}
+
+.container{
+    width: 1440px;
+    height: 450px;
+    box-sizing: border-box;
+    position: relative;
+    top:50px;
+    margin-bottom: 100px;
+}
+
+.whiteBox, .left-blue-box, .right-blue-box{
+    position: absolute;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.sub-header, .price{
+    font-weight: bold;
+}
+
+
+
+/* WHITE BOX CONTENT */
+.whiteBox{
+    height: 45%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+h3, .thirty-day{
+    line-height: 25px;
+}
+
+h3{
+    color: hsl(179, 62%, 43%);
+}
+
+.thirty-day{
+    color: hsl(71, 73%, 54%);
+}
+
+.white-box-content{
+    color: hsl(218, 22%, 67%);
+    line-height: 10px;
+}
+/* WHITE BOX CONTENT */
+
+
+
+.left-blue-box, .right-blue-box, .sign-up{
+    color: white;
+}
+
+
+
+/* LEFT BLUE BOX CONTENT */
+.left-blue-box{
+    bottom: 0;
+    left: 0;
+    height: 55%;
+    width: 50%;
+    background-color: hsl(179, 62%, 50%);
+    border-radius: 0 0 0 10px;
+}
+
+.left-blue-box-header{
+    margin-bottom: 20px;
+}
+
+.price{
+    font-size: 30px;
+    display: inline;
+}
+
+.per-month{
+    display: inline;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.left-blue-box-content, .per-month{
+    line-height: 5px;
+}
+
+.sign-up{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 88%;
+    height: 22%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sign-up:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* LEFT BLUE BOX CONTENT */
+
+
+
+/* RIGHT BLUE BOX CONTENT */
+.right-blue-box{
+    bottom: 0;
+    right: 0;
+    height: 55%;
+    width: 50%;
+    background-color: hsl(179, 82%, 50%);
+    border-radius: 0 0 10px 0;
+}
+
+.right-blue-box-header{
+    padding-bottom: 10px;
+}
+
+.right-blue-box-content{
+    line-height: 7px;
+    font-size: 14px;
+}
+/* RIGHT BLUE BOX CONTENT */
+
+
+
+footer{
+    position: fixed;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width: 425px){
+    .container{
+        width: 375px;
+        height: 800px;
+    }
+
+    .white-box-content{
+        line-height: 20px;
+    }
+
+    .whiteBox{
+        height: 38%;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .left-blue-box{
+        bottom: 248px;
+        height: 31%;
+        width: 100%;
+        background-color: hsl(179, 62%, 50%);
+        border-radius: 0;
+    }
+
+    .sign-up{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .sign-up:hover{
+        background-color: hsl(204, 43%, 93%);
+    }
+
+    .right-blue-box{
+        height: 31%;
+        width: 100%;
+        background-color: hsl(179, 82%, 50%);
+        border-radius: 0 0 10px 10px;
+    }
+}
