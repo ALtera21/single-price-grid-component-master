@@ -41,22 +41,22 @@ Since this is my third time doing this, my code is cleaner than the first 2 atte
 -the left blue box (.left-blue-box)
 -the right blue box (.right-blue-box)
 
-1.)i made the body into flexbox so that the container could stand on the middle of the screen using {justify-content: center;}
+2.)i made the body into flexbox so that the container could stand on the middle of the screen using {justify-content: center;}
 
-2.) i styled all the the parts and used {box-sizing: border-box;} to make the size consistent
+3.) i styled all the the parts and used {box-sizing: border-box;} to make the size consistent
 then i add {border: 2px solid black;} so that i can see the layout, the other reason to used the {box-sizing: border-box;}
 is to padding the contents all at once, this also made the the section inside the container to pad on the right
 but since it is border box, the size will become consistent.
 
-3.) the rest is just styling it like normal, then i delete the {border: 2px solid black;}
+4.) the rest is just styling it like normal, then i delete the {border: 2px solid black;}
 
-4.) as for the right blue box's content, at first i thought of using <ol> and then delete the list's bullets
+5.) as for the right blue box's content, at first i thought of using unordered list and then delete the list's bullets
 using {list-style: none;}, but it automatically pad to the right 20px relative with the already pad to the right
 "right blue box sub header", basically it means that the list now pad to right by 40px instead of 20px,
-so first i added {padding-left: 0;} on the list, but then i realize all the list become one giant none <br>
-string, so i replace it with <div><p></p></div> cuz it is superior
+so first i added {padding-left: 0;} on the list, but then i realize all the list become one giant none breakline
+string, so i replace it with div and p cuz it is superior
 
-5.) the footer is a problem, i can't find a way to put it exactly on the bottom of the container,
+6.) the footer is a problem, i can't find a way to put it exactly on the bottom of the container,
 i tried {display: block;} cuz i thought maybe the deafult is inline, but no it didn't work, i don't know
 the solution so i add {position: fixed;}, a quick solution, but certainly not what i wanted,
 i could increase the container sizes and put the footer inside, but all the parts inside the container had height and width
@@ -68,7 +68,7 @@ relative to the container (i used % instead of px), i don't want to remake all t
 - CSS
 - flexbox, only used to make the container on the center with {justify-content: center;}
 - no CSS Grid
-- desktop-first workflow, breakpoint @400px
+- desktop-first workflow, breakpoint @425px
 - no framework, cuz i still dont know how to used them
 
 ### What I learned
